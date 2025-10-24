@@ -9,4 +9,16 @@
   3. Add your resources to the values.yml file
      <img width="1102" height="529" alt="image" src="https://github.com/user-attachments/assets/41f60e3d-53d9-4b25-bb68-f4c6f8f8c8fc" />
 
+  4. save and push to remote repository
+     <img width="1544" height="275" alt="image" src="https://github.com/user-attachments/assets/542ef9e9-7fbb-47f0-be50-cd85737ba9ac" />
+
+     <img width="1375" height="389" alt="image" src="https://github.com/user-attachments/assets/d72830d7-2e14-4256-ac49-bd29ff693219" />
+
+  # Deploying your application
+5. Navigate to root of the hem app folder and deploy by running the command below
+   `helm install mywebapp ./webapp `
+   
+
+
+
 
