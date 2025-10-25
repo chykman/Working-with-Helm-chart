@@ -17,6 +17,12 @@
   # Deploying your application
 5. Navigate to root of the hem app folder and deploy by running the command below
    `helm install mywebapp ./webapp `
+
+   <img width="1588" height="413" alt="image" src="https://github.com/user-attachments/assets/8b46f61b-4a4c-4de0-a71d-89cf18e542af" />
+
+   <img width="1196" height="186" alt="image" src="https://github.com/user-attachments/assets/a17c718f-9b21-43f1-9033-6fbf17cd213d" />
+
+
    
 
 
