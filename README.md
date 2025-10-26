@@ -22,6 +22,23 @@
 
    <img width="1196" height="186" alt="image" src="https://github.com/user-attachments/assets/a17c718f-9b21-43f1-9033-6fbf17cd213d" />
 
+6. Check your deployment
+   <img width="1165" height="154" alt="image" src="https://github.com/user-attachments/assets/081c5f7f-0548-4840-b347-1412d59b5e45" />
+
+7. Run the command to get your pod url
+`export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=webapp,app.kubernetes.io/instance=my-webapp" -o jsonpath="{".items[0].metadata.name"}")
+
+export CONTAINER_PORT=$(kubectl get pod --namespace default $POD_NAME -o jsonpath="{".spec.containers[0].ports[0].containerPort"}")
+
+kubectl --namespace default port-forward $POD_NAME 8081:$CONTAINER_PORT `
+<img width="1479" height="727" alt="image" src="https://github.com/user-attachments/assets/76db697f-3e4c-4983-92c7-425c8e1c197f" />
+
+8. Vist your application via browser on this ip ` http://127.0.0.1:8080 `
+   <img width="1920" height="979" alt="image" src="https://github.com/user-attachments/assets/e3adf8b7-be15-4a8f-856f-1b6f23f3e66d" />
+
+
+
+
 
    
 
